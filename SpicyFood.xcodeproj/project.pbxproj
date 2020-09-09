@@ -13,6 +13,7 @@
 		EBB286B025079EC0002D10BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB286AF25079EC0002D10BB /* Assets.xcassets */; };
 		EBB286B325079EC0002D10BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB286B225079EC0002D10BB /* Preview Assets.xcassets */; };
 		EBB286B625079EC0002D10BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB286B425079EC0002D10BB /* LaunchScreen.storyboard */; };
+		EBCCFEC525086C3D0028DA33 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCCFEC425086C3D0028DA33 /* Dish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EBB286B225079EC0002D10BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBB286B525079EC0002D10BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBB286B725079EC0002D10BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCCFEC425086C3D0028DA33 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		EBB286A825079EBE002D10BB /* SpicyFood */ = {
 			isa = PBXGroup;
 			children = (
+				EBCCFEC325086C040028DA33 /* Models */,
 				EBB286A925079EBE002D10BB /* AppDelegate.swift */,
 				EBB286AB25079EBE002D10BB /* SceneDelegate.swift */,
 				EBB286AD25079EBE002D10BB /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				EBB286B225079EC0002D10BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBCCFEC325086C040028DA33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCFEC425086C3D0028DA33 /* Dish.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBB286AA25079EBE002D10BB /* AppDelegate.swift in Sources */,
+				EBCCFEC525086C3D0028DA33 /* Dish.swift in Sources */,
 				EBB286AC25079EBE002D10BB /* SceneDelegate.swift in Sources */,
 				EBB286AE25079EBE002D10BB /* ContentView.swift in Sources */,
 			);
